@@ -5,15 +5,15 @@ jobs:
   # Job one with a unique name
   say_hello:
     docker:
-     - image: cimg/base:2022.05
+      - image: cimg/base:2022.05
     steps:
-      - run: echo "Say hello to YAML!"
+      - run: echo "Say hello to circleCI!"
   # Job two with a unique name
   say_goodbye:
     docker:
-     - image: cimg/base:2022.05
+      - image: cimg/base:2022.05
     steps:
-      - run: echo "Say goodbye to YAML!"
+      - run: echo "Say goodbye to circleCI!"
 
 workflows:
   # Name of workflow
